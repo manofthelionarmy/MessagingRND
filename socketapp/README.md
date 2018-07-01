@@ -2,6 +2,27 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
+## Important Dependencies
+
+This project uses StompJs, SockJs, and Bootstrap and this repository doesn't contain the node_modules folder. After you clone this repository, navigate via your terminal to the location of this angular project (/socketapp). Once you are within the project, run:
+
+`npm install`
+
+to install all of the node modules. 
+
+Then run:
+
+`npm install stompjs --save`
+`npm install sockjs-client --save`
+`npm install bootstrap`
+
+Bootstrap needs 2 dependencies so run:
+
+`npm install jquery@1.9.1 --save`
+`npm install popper.js@1.14.3 --save`
+
+After running all of these commands, the project should function properly.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
