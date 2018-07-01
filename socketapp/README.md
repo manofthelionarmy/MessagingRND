@@ -12,13 +12,13 @@ to install all of the node modules.
 
 Then run:
 
-`npm install stompjs --save
-npm install sockjs-client --save
+`npm install stompjs --save \n
+npm install sockjs-client --save \n
 npm install bootstrap`
 
 Bootstrap needs 2 dependencies so run:
 
-`npm install jquery@1.9.1 --save
+`npm install jquery@1.9.1 --save \n
 npm install popper.js@1.14.3 --save`
 
 After running all of these commands, the project should function properly.
